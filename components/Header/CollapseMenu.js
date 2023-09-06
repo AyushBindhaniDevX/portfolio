@@ -45,32 +45,7 @@ const CollapseMenu = ({ isOpen, setOpen }) => {
             ))}
           </Stack>
           <ButtonGroup display={{ sm: "flex", xs: "flex" }}>
-            <Button
-              as="a"
-              target="_blank"
-              href="/resume"
-              border="2px"
-              variant="outline"
-              size="sm"
-              onClick={setOpen}
-              colorScheme="teal"
-              _focus={{ boxShadow: "outline" }}
-            >
-              Resume
-            </Button>
-            <Button
-              as="a"
-              href="https://cal.com/ayushsoni1010/"
-              target="_blank"
-              variant="solid"
-              size="sm"
-              colorScheme="teal"
-              bgGradient="linear(to-r, teal.500, green.400)"
-              onClick={setOpen}
-              _focus={{ boxShadow: "outline" }}
-            >
-              Schedule a Meeting
-            </Button>
+
           </ButtonGroup>
         </Box>
       </Collapse>
