@@ -201,21 +201,6 @@ const Home = () => {
               this.
             </Text>
           </VStack>
-          <NextLink href="/links" passHref>
-            <Button
-              leftIcon={<IoIosRocket />}
-              colorScheme="white"
-              color="white"
-              bg="black"
-              size={"lg"}
-              shadow={"dark-lg"}
-              _hover={{ shadow: "none" }}
-              variant="solid"
-              marginTop={{ base: 0, lg: 0, md: 0, sm: 4, xs: 4 }}
-            >
-              Connect With Me
-            </Button>
-          </NextLink>
         </Flex>
       </BaseLayout>
       <Timeline />
