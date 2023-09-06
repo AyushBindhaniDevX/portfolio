@@ -30,7 +30,7 @@ const Hero = () => {
           zIndex="100"
         >
           <Link
-            href="https://github.com/ayushsoni1010"
+            href="https://github.com/AyushBindhaniDevX"
             textDecoration="none"
             isExternal={true}
             style={{ textDecoration: "none" }}
@@ -68,7 +68,7 @@ const Hero = () => {
                   bgGradient="linear(to-tr, teal.500, green.400)"
                   bgClip="text"
                 >
-                  Ayush Soni,
+                  Ayush Bindhani,
                 </Text>
               </Stack>
               <Stack display="flex" direction="row">
@@ -119,30 +119,7 @@ const Hero = () => {
                 high quality.
               </span>{" "}
             </Text>
-            <ButtonGroup gap="1">
-              <Button
-                as="a"
-                target="_blank"
-                href="mailto:ayushsoni1010.work@gmail.com"
-                border="2px"
-                variant="outline"
-                size={{ base: "md", md: "md", sm: "sm" }}
-                colorScheme="teal"
-              >
-                Hire me
-              </Button>
-              <Button
-                colorScheme="teal"
-                target="_blank"
-                as="a"
-                href="https://cal.com/ayushsoni1010/"
-                variant="solid"
-                size={{ base: "md", md: "md", sm: "sm" }}
-                bgGradient="linear(to-r, teal.500, green.400)"
-              >
-                Schedule a Meeting
-              </Button>
-            </ButtonGroup>
+
             <Stack py="4">
               <SocialProfiles />
             </Stack>
