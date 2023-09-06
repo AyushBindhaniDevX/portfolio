@@ -2,11 +2,11 @@ import React from "react";
 import Head from "next/head";
 
 const Seo = ({
-  title = "Ayush Soni",
+  title = "Ayush Bindhani",
   description = "Hey! I am Ayush, a full-stack developer from India.",
-  OGImage = "https://ayushsoni1010.com/profile.jpg",
+  OGImage = "",
   OGType = "website",
-  canonicalUrl = "https://ayushsoni1010.com/",
+  canonicalUrl = "https://ayushbindhani.in/",
   publishedDate = new Date(),
   children,
 }) => {
@@ -14,28 +14,12 @@ const Seo = ({
     <React.Fragment>
       <Head>
         {/* basic metadata */}
-        <title>{`${title} | Ayush Soni`}</title>
+        <title>{`${title} | Ayush Bindhani`}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content={description} />
-        <meta name="author" content="Ayush Soni" />
-        <meta name="author" content="ayushsoni1010" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="author" content="Ayush Bindhani" />
 
-        {/* twitter metadata */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@ayushsoni1010" />
-        <meta name="twitter:creator" content="@ayushsoni1010" />
-        <meta name="twitter:title" content="Ayush Soni" />
-        <meta
-          name="twitter:description"
-          content="Hey! I am Ayush, a full-stack developer from India."
-        />
-        <meta
-          name="twitter:image"
-          content="https://ayushsoni1010.com/profile.jpg"
-        />
-
+       
         {/* canonical link */}
         <link rel="canonical" href={canonicalUrl} />
 
