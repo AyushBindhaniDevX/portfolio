@@ -90,28 +90,7 @@ const Header = () => {
               <ButtonGroup
                 display={{ base: "flex", md: "flex", sm: "none", xs: "none" }}
               >
-                <Button
-                  as="a"
-                  target="_blank"
-                  href="/resume"
-                  border="2px"
-                  variant="outline"
-                  size="md"
-                  colorScheme="teal"
-                >
-                  Resume
-                </Button>
-                <Button
-                  colorScheme="teal"
-                  target="_blank"
-                  as="a"
-                  href="https://cal.com/ayushsoni1010/"
-                  variant="solid"
-                  size="md"
-                  bgGradient="linear(to-r, teal.500, green.400)"
-                >
-                  Schedule a Meeting
-                </Button>
+
               </ButtonGroup>
             </Stack>
           </Flex>
